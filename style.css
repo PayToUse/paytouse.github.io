@@ -1,0 +1,153 @@
+body {
+    font-family: monospace;
+    font-size: 5vw;
+    text-align: center;
+    color: #000000;
+    background-color: #DDDDDD;
+}
+hr {
+    opacity: 0;
+}
+img {
+    width: 40vw;
+    border-radius: 50%;
+}
+lk {
+    animation: colorfade 2.5s infinite alternate linear;
+}
+a {
+    text-decoration: none;
+    color: #7777FF;
+}
+#about {
+    width: 95%;
+    background-color: #444444;
+    height: 50vh;
+    margin: auto;
+    border: 1vw solid #222222;
+    overflow-x: auto;
+    color: #FFFFFF;
+}
+#projects {
+    width: 95%;
+    background-color: #444444;
+    height: 50vh;
+    margin: auto;
+    border: 1vw solid #222222;
+    overflow-x: auto;
+    color: #FFFFFF;
+}
+#livecounts {
+    width: 95%;
+    background-color: #444444;
+    height: 50vh;
+    margin: auto;
+    border: 1vw solid #222222;
+    overflow-x: auto;
+    color: #FFFFFF;
+}
+#kofidonopanel {
+    width: 95%;
+    background-color: #444444;
+    height: 50vh;
+    margin: auto;
+    border: 1vw solid #222222;
+    overflow-x: auto;
+    color: #FFFFFF;
+}
+#kofidonopanel iframe {
+    width: fit-content;
+    border: 1vw solid #999999;
+}
+#about p {
+    text-align: justify;
+    margin: 2vw;
+    font-size: 4.5vw;
+}
+#about img {
+    border-radius: 10px;
+    width: 95%;
+}
+#projects p {
+    text-align: center;
+    margin: 2vw;
+    font-size: 4.5vw;
+}
+#projects img {
+    width: 75%;
+    border-radius: 2vw;
+    border: 1vw solid #888888;
+}
+#twitter {
+    width: 95%;
+    height: 10.5vh;
+    background-color: #666666;
+    border: 1vw solid #000000;
+}
+#twitch {
+    width: 95%;
+    height: 10.5vh;
+    background-color: #666666;
+    border: 1vw solid #000000;
+}
+#instagram {
+    width: 95%;
+    height: 10.5vh;
+    background-color: #666666;
+    border: 1vw solid #000000;
+}
+#youtube {
+    width: 95%;
+    height: 10.5vh;
+    background-color: #666666;
+    border: 1vw solid #000000;
+}
+#discord {
+    width: 95%;
+    height: 10.5vh;
+    background-color: #666666;
+    border: 1vw solid #000000;
+}
+#tiktok {
+    width: 95%;
+    height: 10.5vh;
+    background-color: #666666;
+    border: 1vw solid #000000;
+}
+#upload {
+    width: 95%;
+    background-color: #666666;
+    border: 1vw solid #000000;
+}
+@keyframes colorfade {
+    0% {
+        color: rgb(255, 0, 170);
+        text-shadow: 0px 2px 10px rgb(255, 99, 195);
+    }
+
+    33% {
+        color: rgb(94, 123, 253);
+        text-shadow: 0px 2px 10px rgb(94, 150, 253);
+    }
+
+    66% {
+        color: rgb(26, 204, 136);
+        text-shadow: 0px 2px 10px rgb(72, 184, 141);
+    }
+
+    100% {
+        color: rgb(255, 104, 34);
+        text-shadow: 0px 2px 10px rgb(255, 133, 95);
+    }
+}
+@media all and (min-width: 1080px;) {
+    #about {
+        width: 75%;
+    }
+    #projects {
+        width: 75%;
+    }
+    #livecounts {
+        width: 75%;
+    }
+}
