@@ -6,7 +6,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/PayToUse/new-webpage?style=flat-square&label=Project%20forks)
 ![GitHub issues](https://img.shields.io/github/issues/PayToUse/new-webpage?style=flat-square&label=Project%20issues)
 
-Sequel of paytouse.github.io
+Sequel of the old paytouse.github.io, moved to main directory
 
 [click here to see the preview](https://paytouse.github.io/new-webpage)
 
