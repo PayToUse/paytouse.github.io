@@ -8,7 +8,7 @@
 
 Sequel of the old paytouse.github.io, moved to main directory
 
-[click here to see the preview](https://paytouse.github.io/new-webpage)
+[click here to see the preview](https://paytouse.github.io/)
 
 # Note
 This only works on mobile, broken on desktop
