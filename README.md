@@ -8,6 +8,8 @@
 
 Sequel of the old paytouse.github.io, moved to main directory
 
+The interface has been updated since it's too large on desktop and only works on mobile and tablet
+
 [click here to see the preview](https://paytouse.github.io/)
 
 # Note
