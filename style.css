@@ -1,160 +1,159 @@
 body {
-    font-family: monospace;
-    font-size: 12.5pt;
-    text-align: center;
-    color: #000000;
-    background-color: #DDDDDD;
+  font-family: 'Omori';
+  font-size: 15pt;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-shadow: 0px 0px 2px #FFFFFF;
 }
+
+p {
+  font-weight: bold;
+}
+
 hr {
-    opacity: 0;
+  opacity: 0;
 }
-#info img {
-    width: 100pt;
-    border-radius: 50%;
-}
+
 rbt {
-    animation: colorfade 2.5s infinite alternate linear;
+  animation: colorfade 2.5s infinite alternate linear;
 }
+
 a {
-    text-decoration: none;
-    color: #7777FF;
+  text-decoration: none;
+  color: #7777FF;
+  text-shadow: 0px 0px 2px #7777FF;
 }
-div {
-  border-radius: 15px;
+
+#info img {
+  width: 100pt;
+  border-radius: 50%;
 }
-#about {
-    width: 95%;
-    background-color: #444444;
-    height: 250pt;
-    margin: auto;
-    border: 4pt solid #222222;
-    overflow-x: auto;
-    color: #FFFFFF;
+
+#pfps img {
+  box-shadow: 0px 2px 10px #000000;
 }
-#projects {
-    width: 95%;
-    background-color: #444444;
-    height: 250pt;
-    margin: auto;
-    border: 4pt solid #222222;
-    overflow-x: auto;
-    color: #FFFFFF;
-}
-#livecounts {
-    width: 95%;
-    background-color: #444444;
-    height: 250pt;
-    margin: auto;
-    border: 4pt solid #222222;
-    overflow-x: auto;
-    color: #FFFFFF;
-}
+
+#about,
+#projects,
+#livecounts,
 #kofidonopanel {
-    width: 95%;
-    background-color: #444444;
-    height: 250pt;
-    margin: auto;
-    border: 4pt solid #222222;
-    overflow-x: auto;
-    color: #FFFFFF;
+  width: 95%;
+  background-color: #666666;
+  height: 250pt;
+  margin: auto;
+  border-radius: 17.5px;
+  overflow-x: auto;
+  color: #FFFFFF;
+  box-shadow: 0px 10px 10px #888888;
 }
+
 #kofidonopanel iframe {
-    width: fit-content;
-    border: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  width: fit-content;
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 0px 10px #222222;
 }
+
 #about p,
 #projects p {
-    text-align: justify;
-    margin: 2vw;
-    font-size: 15pt;
+  text-align: justify;
 }
+
+#about p,
+#projects p,
+#livecounts p,
+#kofidonopanel p {
+  margin: 16px;
+  font-size: 15pt;
+}
+
 #about img {
-    border-radius: 10px;
-    width: 95%;
+  border-radius: 10px;
+  width: 95%;
 }
+
 #projects img {
-    width: 75%;
-    border-radius: 2vw;
-    border: 4pt solid #888888;
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px #222222;
 }
-#twitter {
-    width: 95%;
-    height: 60pt;
-    background-color: #666666;
-    border: 4pt solid #000000;
-}
-#twitch {
-    width: 95%;
-    height: 60pt;
-    background-color: #666666;
-    border: 4pt solid #000000;
-}
-#instagram {
-    width: 95%;
-    height: 60pt;
-    background-color: #666666;
-    border: 4pt solid #000000;
-}
-#youtube {
-    width: 95%;
-    height: 60pt;
-    background-color: #666666;
-    border: 4pt solid #000000;
-}
+
+#twitter, 
+#youtube, 
+#instagram, 
+#tiktok, 
+#twitch, 
 #discord {
-    width: 95%;
-    height: 60pt;
-    background-color: #666666;
-    border: 4pt solid #000000;
+  width: 95%;
+  height: 60pt;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px #222222;
 }
-#tiktok {
-    width: 95%;
-    height: 60pt;
-    background-color: #666666;
-    border: 4pt solid #000000;
-}
+
 #upload {
-    width: 95%;
-    background-color: #666666;
-    border: 4pt solid #000000;
+  background: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 10px #222222;
 }
+
+#name,
+#aka,
+#title {
+  text-shadow: 0px 2px 5px #000000;
+}
+
+#livecounts h2 {
+  margin: 8px;
+}
+
 @keyframes colorfade {
-    0% {
-        color: rgb(255, 0, 170);
-        text-shadow: 0px 2px 10px rgb(255, 99, 195);
-    }
+  0% {
+    color: rgb(255, 0, 170);
+    text-shadow: 0px 2px 10px rgb(255, 99, 195);
+  }
 
-    33% {
-        color: rgb(94, 123, 253);
-        text-shadow: 0px 2px 10px rgb(94, 150, 253);
-    }
+  33% {
+    color: rgb(94, 123, 253);
+    text-shadow: 0px 2px 10px rgb(94, 150, 253);
+  }
 
-    66% {
-        color: rgb(26, 204, 136);
-        text-shadow: 0px 2px 10px rgb(72, 184, 141);
-    }
+  66% {
+    color: rgb(26, 204, 136);
+    text-shadow: 0px 2px 10px rgb(72, 184, 141);
+  }
 
-    100% {
-        color: rgb(255, 104, 34);
-        text-shadow: 0px 2px 10px rgb(255, 133, 95);
-    }
+  100% {
+    color: rgb(255, 104, 34);
+    text-shadow: 0px 2px 10px rgb(255, 133, 95);
+  }
+}
+
+@font-face {
+  font-family: 'Omori';
+  src: url(fonts/omorifontright.ttf);
 }
 
 /* for tablet devices or mobile devices in desktop mode (720px) */
 @media only screen and (min-width: 720px) {
   body {
-    font-size: 15pt;
+    font-size: 18pt;
   }
+
   #info img {
     width: 125pt;
     border-radius: 50%;
   }
-  #container, 
+
+  #container,
   #container-2 {
     display: flex;
   }
+
   #container div,
   #container-2 div {
     width: 45%;
@@ -164,16 +163,19 @@ div {
 /* for small desktop monitors (1080px) */
 @media only screen and (min-width: 1080px) {
   body {
-    font-size: 17.5pt;
+    font-size: 21pt;
   }
+
   #info img {
     width: 187.5pt;
     border-radius: 50%;
   }
-  #container, 
+
+  #container,
   #container-2 {
     display: flex;
   }
+
   #container div,
   #container-2 div {
     width: 45%;
@@ -183,16 +185,19 @@ div {
 /* for bigger desktop monitors (1440px) */
 @media only screen and (min-width: 1440px) {
   body {
-    font-size: 23.33pt;
+    font-size: 27.9999999pt;
   }
+
   #info img {
     width: 250pt;
     border-radius: 50%;
   }
-  #container, 
+
+  #container,
   #container-2 {
     display: flex;
   }
+
   #container div,
   #container-2 div {
     width: 45%;
