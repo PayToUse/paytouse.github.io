@@ -8,9 +8,9 @@
 
 Sequel of the old paytouse.github.io, moved to main directory
 
-The interface has been updated since it's too large on desktop and only works on mobile and tablet
+The interface has been updated a few months ago, now works on all devices!
 
 [click here to see the preview](https://paytouse.github.io/)
 
 # Note
-This only works on mobile, broken on desktop
+This may update for bug fixes
